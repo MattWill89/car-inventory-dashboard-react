@@ -1,0 +1,40 @@
+.sign-in {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .sign-in form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sign-in div {
+    margin-bottom: 10px;
+  }
+  
+  .sign-in label {
+    font-weight: bold;
+  }
+  
+  .sign-in input[type="email"],
+  .sign-in input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .sign-in button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sign-in button:hover {
+    background-color: #0056b3;
+  }
+  

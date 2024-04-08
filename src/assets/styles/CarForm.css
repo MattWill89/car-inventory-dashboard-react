@@ -1,0 +1,38 @@
+.car-form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .car-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .car-form div {
+    margin-bottom: 10px;
+  }
+  
+  .car-form label {
+    font-weight: bold;
+  }
+  
+  .car-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .car-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .car-form button:hover {
+    background-color: #0056b3;
+  }
+  
